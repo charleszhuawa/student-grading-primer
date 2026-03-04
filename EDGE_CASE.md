@@ -1,11 +1,8 @@
-# Document your edge case here
-- To get marks for this section you will need to explain to your tutor:
-1) The edge case you identified
-2) How you have accounted for this in your implementation
+# Edge Case
 **1) Edge case identified:**  
-When creating a new student, the `mark` field must be an integer between 0 and 100.  
+When creating a new student, the `mark` field must between 0 and 100.  
 
-- Invalid inputs include: negative numbers (e.g., -5), numbers greater than 100 (e.g., 101), or non-integer values.  
+- Invalid inputs include: negative numbers (e.g., -5), numbers greater than 100 (e.g., 101).  
 - Without this check, invalid data could cause inconsistent database entries or errors in statistics calculations.
 
 **2) How this is handled in the implementation:**  
