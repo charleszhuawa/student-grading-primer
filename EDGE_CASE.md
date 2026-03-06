@@ -7,7 +7,7 @@ When creating a new student, the `mark` field must between 0 and 100.
 
 **2) How this is handled in the implementation:**  
 
-In `app.py` within the `create_student` route, the following validation was added:
+In `app.py`, the following validation was added:
 
 ```python
 if mark < 0 or mark > 100:
